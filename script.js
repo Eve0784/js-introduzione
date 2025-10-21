@@ -85,3 +85,45 @@ false|| false; //false
 // uguaglianza (== o ===)
 5 === 5; //true
 7 === 2; // false
+7 === '7' //false
+7 == '7' // true -- il doppio uguale converte prima di confrontare
+true === true; //true
+true === false; //false
+"pippo" === "pippo"; //true
+"pippo" === "pluto"; //false
+
+// diverso (!= o !==)
+ 5 !== 3; //true
+ 5 !== 5; //false
+ !(7===7); //false
+7 !== '7' //true
+7 != '7' // false
+
+true !== true; //false
+true !== false; //true
+
+"pippo" !== "pippo"; //false
+"pippo" !== "pluto"; //true
+
+//maggiore e maggiore o uguale (> o >=)
+//minore e minore o uguale (< o <=)
+7 > 6; //true
+7 > 8; //false
+7 > 7; // false
+7 >= 7; //true
+
+// PARENTESI (())
+// ((3+2)*2-(4-3));// 13
+// (7 * 2 - 1);
+// (14-1);
+// 13;
+
+//ESERCIZI
+//1)
+!(true||true); // false
+//2)
+!(true || ("pippo" ==="pluto")); //false
+//3)
+!((12 % 5) === 3); //true
+//4)
+("ciao mondo" !== ("ciao"+"  "+"mondo")) ===false; //false
